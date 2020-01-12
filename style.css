@@ -1,0 +1,106 @@
+body{
+	background:  #EDC79B;
+	color: (100, 100, 255); 
+	font-family:'Titillium Web',sans-serif;
+	font-size: 16px; 
+}	
+
+h1, h2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 600; 
+}
+
+h1{
+	color: #A40606; 
+	font-size: 40px; 
+}
+
+h2{
+	color: #F55D3E;
+	font-size: 25px; 
+}
+
+
+.quiestqui {background: #EDC79B; 
+	margin: 60px; 
+	padding: 5px 40px; 
+	border: 1px solid #A40606; 
+	border-radius: 4px; 
+	box-shadow: 5px 5px 5px grey"; 
+
+}
+.membre{
+  	flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+
+}
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+.list-inline  li {
+  display: inline;
+  padding: 0px 20px; 
+}
+
+.Photo {
+	border-radius: 50%; 
+	box-shadow: 3px 3px 3px black; 
+	width: 150px; 
+	height: 150px
+
+}
+
+#Sancho { border-radius: 50%; 
+	box-shadow: 3px 3px 3px black; 
+	width: 150px; 
+	height: 150px
+}
+
+#btn-fb { 
+	border-radius: 4px; 
+	padding: 8px; 
+	background: #F55D3E; 
+	text-decoration: none;
+	color: black; 
+	transition: 0.1s ease; 
+}
+
+#btn-fb a: hover{
+	background: black; 
+	font-weight: bolder; 
+}
+
+#bigbox p {margin-bottom: 25px ; font-weight: lighter}
+
+#container {margin: 0px auto ; width: 900px }
+
+#bigbox { background: #E8A87C; 
+	margin: 60px; 
+	padding: 40px; 
+	border: 2px solid ; 
+	border-color: #A40606; 
+	border-radius: 10px; 
+	box-shadow: 5px 5px 5px grey }
+
+.banner {
+	background-image: url(../../images/galerie.jpg); 
+	color: white; 
+	padding: 150px 0px ; 
+	background-size: cover; 
+	background-position: center;  
+}
+
+
+@media (max-width: 750px) {
+	#container { 
+		width: 600px }
+}
+
+@media ( max-width: 500px ) {
+	#container { 
+		width: 400px}
+}
+
